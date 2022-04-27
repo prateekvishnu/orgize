@@ -19,4 +19,8 @@ FROM ubuntu:20.04
 
 COPY --from=builder prateekvishnu/fuzz/target/x86_64-unknown-linux-gnu/release/parser /
 
+# Seed corpus
+RUN mkdir /tests
+RUN echo "* DONE Title :tag:" > /tests/seed
+
 
