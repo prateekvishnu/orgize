@@ -2,7 +2,7 @@
 project: orgize
 
 # Target name (should be unique within the project)
-target: orgize
+target: parser
 
 # Base image to run the binary in.
 # image: ghcr.io/prateekvishnu/orgize:latest
