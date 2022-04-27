@@ -17,6 +17,6 @@ RUN cd fuzz && ${HOME}/.cargo/bin/cargo fuzz build
 # Package Stage
 FROM ubuntu:20.04
 
-COPY --from=builder prateekvishnu/fuzz/target/x86_64-unknown-linux-gnu/release/fuzz_target_1 /
+COPY --from=builder prateekvishnu/fuzz/target/x86_64-unknown-linux-gnu/release/parser /
 
 
