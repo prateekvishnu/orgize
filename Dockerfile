@@ -22,5 +22,3 @@ COPY --from=builder prateekvishnu/fuzz/target/x86_64-unknown-linux-gnu/release/p
 # Seed corpus
 RUN mkdir /tests
 RUN echo "* DONE Title :tag:" > /tests/seed
-
-
